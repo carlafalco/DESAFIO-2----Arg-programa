@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+/* HOME */
+
+body{
+    
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    
+}
+
+.nav-item{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.nav-link{
+    font-weight: lighter !important;
+    font-size: smaller !important;
+    cursor: pointer;
+    transition: all 400ms ease;
+
+}
+
+.nav-item:hover{
+    background: #f3f3f3;
+}
+
+
+
+#menu a{
+    font-size: 18px;
+    font-weight: bold;
+    color:#89a27a;
+}
+
+.carrousel-inner {
+   
+    max-height: 30rem;
+    background-color: black;
+    opacity: 0.7;
+   
+}
+
+.carousel-caption {
+   background-color: black;
+   opacity: 0.9;
+}
+
+.carousel-item{
+    background-color: #000;
+    opacity: 0.8;
+    
+}
+
+.slider-btn{
+    margin-top: 10px;
+    
+}
+
+.slider-btn .btn{
+    background-color: white;
+    border-radius:0;
+    font-size: 1rem;
+    font-weight: bolder;
+    font-style: italic;
+    
+
+
+}
+
+
+/* FOOTER */
+
+footer{
+    background: #000;
+    min-height: 80px;
+    bottom: 0px;
+    position: relative; 
+    
+    
+
+}
+
+footer p{
+    color: #f3f3f3;
+    text-align: center;
+}
+
+#iconos i{
+    font-size: 16px;
+    padding: 0 8px;
+    color: #f3f3f3;
+    margin:15px 15px;
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    transition: .6s;
+    
+    
+    
+
+
+}
+
+#iconos i:hover{
+    transform: translate(0, -10px);
+
+
+
+}
+
+
+
+/* NOSOTROS */
+
+.nos1 h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 0.4cm;
+
+}
+
+.nos1 p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    
+}
+
+.imgnos1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+/* NOSOTROS - botones */
+
+.nos-btn {
+    text-align: center;
+    padding-bottom: 0.5cm;
+
+}
+
+/* NOSOTROS - img2 */
+
+.nos2 h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 2cm;
+
+}
+
+.nos2 p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    
+    
+}
+
+.imgnos2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding-bottom: 0.9cm;
+}
+
+
+/* SERVICIOS */
+
+.serv-intro h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 0.5cm;
+
+}
+
+.serv-intro p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    
+    
+}
+
+/* SERVICIOS - cuadraditos */
+
+.servic{
+    display:flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.servic .ser1{
+    background: hsla(98, 29%, 63%, 0.377);
+    margin:5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color:#575353;
+    position:relative;
+    
+
+}
+
+.servic .ser2{
+    background: hsla(98, 29%, 63%, 0.377);
+    margin:5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #575353;
+    position:relative;
+    
+
+}
+
+.servic .ser3{
+    background: hsla(98, 29%, 63%, 0.377);
+    margin:5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color:#575353;
+    position:relative;
+    
+
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    
+   }
+   .imagenserv {
+    margin: 0px auto;
+    padding-top: 0.5cm;
+      
+   }
+
+
+   /* CONTACTO */
+
+   .contact{
+       
+       text-align: center;
+       justify-content: center;
+       
+   }
+
+   .contact-intro h3{
+       text-align: center;
+       padding-top: 1cm;
+       padding-bottom: 0.3cm;
+       font-family: 'Montserrat', sans-serif;
+   }
+
+   .contact-intro p{
+       text-align: center;
+       font-family: 'Montserrat', sans-serif;
+       padding-bottom: 0.5;
+   }
+
+   .contact-box{
+       padding-bottom: 1cm;
+   }
+
+   
+
+   .mb-2{
+       text-align: center;
+       margin:auto;
+       padding-top: 1cm;
+       padding-bottom: 1cm;
+       justify-content: center;
+       background: #89a27a;
+       min-height: 50px;
+       opacity: 0.8;
+       max-width:600px;
+       max-height:600px;    
+    
+
+   }
+
+   .form-control{
+       text-align: center;
+   }
+
+   .form-label{
+       color: black;
+       font-weight: bold;
+   }
+
+   .contact-btn{
+      text-align: center;
+      padding-bottom: 0.5cm;
+
+   }
